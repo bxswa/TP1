@@ -7,5 +7,6 @@ public class calculatrice
     {
         System.out.println( "Calculatrice" );
         System.out.println( "Addition fonctionnelle dans la calculatrice" );
+        System.out.println( "Soustraction pas faite" );
     }
 }
