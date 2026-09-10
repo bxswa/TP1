@@ -1,0 +1,23 @@
+package iut;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class AddTest 
+{
+
+    @Test
+    public void testAdd (  )
+    {
+        //
+        Add add = new Add();
+
+        //
+        int result = add.add(0,1);
+
+        //
+        assertEquals(result,1);
+       
+    }
+}
